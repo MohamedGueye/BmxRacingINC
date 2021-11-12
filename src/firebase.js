@@ -26,5 +26,12 @@ if(!firebaseApp.appId) throw new Error("Missing firebase credentials: ");
 if(!firebaseApp.measurementId) throw new Error("Missing firebase credentials: ");
 
 
-export const db = getFirestore(firebaseConfig);
+// Variable for authentication 
+const auth = firebase.auth();
+
+// Initialize the database
+const db = firebaseApp.firestore();
+
+// This will allow us to use them outside of the file
+export { db, auth };
   

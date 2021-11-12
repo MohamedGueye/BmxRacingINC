@@ -1,0 +1,38 @@
+.header__top {
+  display: flex;
+  background-color: #262626;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 245px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 40px;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+.header__options {
+  color: white;
+}
+
+.header__text {
+  cursor: pointer;
+  color: white;
+  text-align: right;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-right: 20px;
+}
+
+.header__text:hover {
+  text-decoration: underline;
+}
