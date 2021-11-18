@@ -1,0 +1,22 @@
+.social-media-container {
+  margin-top: 50px;
+  background: #eee;
+  padding: 25px 50px;
+  align-items: bottom;
+}
+
+a.social {
+  margin: 0 1rem;
+}
+
+a.twitter {
+  color: rgb(41, 127, 241);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.instagram {
+  color: black;
+}
